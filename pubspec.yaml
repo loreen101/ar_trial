@@ -7,7 +7,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
 # followed by an optional build number separated by a +.
-# Both the version and the builder number may be overridden in flutter
+# Both the version and the builder number  may be overridden in flutter
 # build by specifying --build-name and --build-number, respectively.
 # In Android, build-name is used as versionName while build-number used as versionCode.
 # Read more about Android versioning at https://developer.android.com/studio/publish/versioning
@@ -33,6 +33,10 @@ dependencies:
   
   ar_flutter_plugin: ^0.7.3
   vector_math: ^2.1.1
+  smooth_page_indicator: ^1.2.0+3
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.10.0
+  cloud_firestore: ^4.8.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -63,7 +67,18 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/sofa.glb
+    - assets\background.jpeg
+    - assets\profile_photo.png
+    - assets\waves.png
+    - assets\plants.png
+    - assets\lamps.png
+    - assets\g.jpeg
+
+    - assets\AR.jpg
+    - assets\darak_logo.png
+    - assets\genAI.jpg
+    - assets\start_screen.jpeg
+    - assets\utilities.jpg
     # - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
